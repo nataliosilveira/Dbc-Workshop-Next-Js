@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Este é o material disponível para o Workshop de Next Js, desenvolvido em conjunto com a DBC Company
 
-## Getting Started
+## Como começar?
 
-First, run the development server:
+Inicie o servidor com o seguinte comando.
 
 ```bash
 npm run dev
@@ -10,21 +10,14 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Explore os arquivos de exemplo, e aproveite para praticar
 
-## Learn More
+## JSON SERVER
 
-To learn more about Next.js, take a look at the following resources:
+para que os exemplos funcionem não esquecer de utilizar json server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+instale as dependências do json-server e depois execute o arquivo server.json
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npx json-server server.json -p 3333 -w
